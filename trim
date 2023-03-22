@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 ggrep -r -h "ift.tt" ~/var/LINE/Keep >> ~/var/LINE/URL
 open ~/var/LINE
