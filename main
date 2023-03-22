@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+case "$1" in
+	"trim" | "post" | "clear" ) bash "$(dirname "$(readlink -f "$0")")"/$1 ;;
+	* ) echo "Set an argument: trim, post, or clear" ;;
+esac
+
+# echo "$(dirname "$(readlink -f "$0")")"

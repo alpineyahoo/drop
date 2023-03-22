@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+osascript -e 'tell application "Google Chrome"
+activate
+make new window
+end tell
+return'
+
+sleep 5; cd $(dirname $0)
+
+echo "You need $((1+$(wc -l < ~/var/LINE/URL)*8/60))m to complete."
+for i in $(cat ~/var/LINE/URL)
+do
+	osascript post.* "https://app.raindrop.io/add?link=${i}"
+	sleep 8
+done
+echo "Done."

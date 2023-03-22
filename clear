@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+rm -f ~/var/LINE/Keep/*
+cp /dev/null ~/var/LINE/URL
