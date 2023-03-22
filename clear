@@ -1,4 +1,4 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env bash
 
 rm -f ~/var/LINE/Keep/*
 cp /dev/null ~/var/LINE/URL
