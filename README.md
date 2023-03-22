@@ -1,5 +1,6 @@
 # drop
-Automator to upload URLs to raindrop.io (for MacOS users using IFTTT or LINE notification).
+Automator to upload URLs to raindrop.io (for MacOS users using IFTTT or LINE notification).  
+用途・使い方の詳細は[コチラ]()の記事にまとめました
 
 ## Installation
 ```bash
